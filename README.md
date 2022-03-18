@@ -1,3 +1,7 @@
 WeatherApp
 
-I have built a weather application using html, css, javascript, and a weather api from openweathermap.org.
+I have built a weather application using html, css, javascript, and a weather api from openweathermap.org. 
+
+To start finding the weather of a city, the user has to type the name of the city, the state's abbreviation (if in the United States of America), and the country's abbreviation. For example, if I wanted to find the weather of Los Angeles, California which is in the United States, I would enter: Los Angeles, CA, USA. If the user wants to check the weather in another country, the user would follow the same steps but leave out the state abbreviation. For example, the weather in Sydney, Australia would be determined by typing in: Sydney, AU. After typing in the location, click on the submit button to display the weather.
+
+The weather is displayed in a card like object. At the top, the temperature in degrees faranheit is shown. I will be adding a celsius option of some sort later. Below the temperature is the description of the weather. It tells the user if the city has a clear sky or if it is cloudy. Towards the bottom is a visual representation of the weather. What is shown is an image of the weather. For example: if the weather is cloudy, an image of clouds will be shown. The background of the card changes between two colors depending on the time of the day of that city. If it is day time, the color will be a bright blue and if it is night, the color will be changed to a grey color.
